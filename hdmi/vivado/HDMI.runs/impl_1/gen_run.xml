@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7k325tffg676-2" LaunchTime="1605452014">
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg676-2" LaunchTime="1605453346">
   <File Type="BITSTR-BMM" Name="hdmi_ctrl_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="hdmi_ctrl_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="hdmi_ctrl_timing_summary_init.rpt"/>

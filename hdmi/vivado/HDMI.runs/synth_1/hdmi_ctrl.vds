@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Sun Nov 15 22:52:13 2020
-# Process ID: 3280
+# Start of session at: Sun Nov 15 23:15:48 2020
+# Process ID: 2928
 # Current directory: C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1
 # Command line: vivado.exe -log hdmi_ctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_ctrl.tcl
 # Log file: C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/hdmi_ctrl.vds
@@ -16,13 +16,13 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Device 21-403] Loading part xc7k325tffg676-2
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8648 
+INFO: Helper process launched with PID 5436 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 879.535 ; gain = 233.723
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 879.863 ; gain = 234.047
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'hdmi_ctrl' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/hdmi_ctrl.v:1]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/.Xil/Vivado-3280-DESKTOP-56190J3/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/.Xil/Vivado-3280-DESKTOP-56190J3/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/.Xil/Vivado-2928-DESKTOP-56190J3/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/.Xil/Vivado-2928-DESKTOP-56190J3/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'vga' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/vga.v:2]
 	Parameter H_ALL bound to: 2200 - type: integer 
 	Parameter H_SYNC bound to: 44 - type: integer 
@@ -111,7 +111,7 @@ INFO: [Synth 8-6155] done synthesizing module 'hdmi_ctrl' (7#1) [C:/Users/s/Desk
 WARNING: [Synth 8-3917] design hdmi_ctrl has port HDMI_OUT_EN1 driven by constant 1
 WARNING: [Synth 8-3331] design vga has unconnected port key
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 953.152 ; gain = 307.340
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 954.172 ; gain = 308.355
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -124,12 +124,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 953.152 ; gain = 307.340
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 954.172 ; gain = 308.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 953.152 ; gain = 307.340
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 954.172 ; gain = 308.355
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 953.152 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 966.004 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -144,21 +144,21 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/hdmi_ctrl_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1060.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1084.215 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   OBUFDS => OBUFDS: 4 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1060.297 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1084.215 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -167,11 +167,11 @@ Applied set_property IO_BUFFER_TYPE = NONE for sclk. (constraint file  c:/Users/
 Applied set_property CLOCK_BUFFER_TYPE = NONE for sclk. (constraint file  c:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
 Applied set_property DONT_TOUCH = true for clk0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:162]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -282,27 +282,40 @@ INFO: [Synth 8-4471] merging register 'encode_b/de_reg_reg' into 'encode_r/de_re
 INFO: [Synth 8-4471] merging register 'par2ser_g/SERDESE_rst_reg' into 'par2ser_r/SERDESE_rst_reg' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/par2ser.v:21]
 INFO: [Synth 8-4471] merging register 'par2ser_b/SERDESE_rst_reg' into 'par2ser_r/SERDESE_rst_reg' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/par2ser.v:21]
 INFO: [Synth 8-4471] merging register 'par2ser_clk/SERDESE_rst_reg' into 'par2ser_r/SERDESE_rst_reg' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/par2ser.v:21]
-INFO: [Synth 8-4471] merging register 'vga_inst/g_reg[7:0]' into 'vga_inst/r_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/vga.v:85]
-INFO: [Synth 8-4471] merging register 'vga_inst/b_reg[7:0]' into 'vga_inst/r_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/vga.v:85]
-INFO: [Synth 8-4471] merging register 'encode_g/din_q_reg[7:0]' into 'encode_r/din_q_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:68]
-INFO: [Synth 8-4471] merging register 'encode_b/din_q_reg[7:0]' into 'encode_r/din_q_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:68]
-INFO: [Synth 8-4471] merging register 'encode_g/n1d_reg[3:0]' into 'encode_r/n1d_reg[3:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:66]
-INFO: [Synth 8-4471] merging register 'encode_b/n1d_reg[3:0]' into 'encode_r/n1d_reg[3:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:66]
+INFO: [Synth 8-4471] merging register 'vga_inst/b_reg[7:0]' into 'vga_inst/g_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/vga.v:85]
+INFO: [Synth 8-4471] merging register 'encode_b/din_q_reg[7:0]' into 'encode_g/din_q_reg[7:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:68]
+INFO: [Synth 8-4471] merging register 'encode_b/n1d_reg[3:0]' into 'encode_g/n1d_reg[3:0]' [C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/rtl/encode.v:66]
 WARNING: [Synth 8-3917] design hdmi_ctrl has port HDMI_OUT_EN1 driven by constant 1
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[7]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[6]' (FDC) to 'vga_inst/r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[7]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[6]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[4]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[5]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[3]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[2]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[1]' (FDC) to 'vga_inst/g_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/g_reg[0]' (FDC) to 'vga_inst/r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[7]' (FDC) to 'vga_inst/r_reg[6]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[6]' (FDC) to 'vga_inst/r_reg[5]'
 INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[4]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[5]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[3]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[2]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[1]' (FDC) to 'vga_inst/r_reg[0]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[7]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[6]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[5]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[4]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[3]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[2]' (FD) to 'encode_r/din_q_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[1]' (FD) to 'encode_r/din_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[5]' (FDC) to 'vga_inst/r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[3]' (FDC) to 'vga_inst/r_reg[2]'
+INFO: [Synth 8-3886] merging instance 'vga_inst/r_reg[2]' (FDC) to 'vga_inst/r_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\vga_inst/r_reg[1] )
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[7]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[6]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[5]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[4]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[3]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[2]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[1]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_g/din_q_reg[0]' (FD) to 'encode_r/din_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[7]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[6]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[5]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[4]' (FD) to 'encode_r/din_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[3]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[2]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/din_q_reg[1]' (FD) to 'encode_r/c0_q_reg'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\encode_r/c0_q_reg )
 INFO: [Synth 8-3886] merging instance 'encode_b/q_m_reg_reg[0]' (FD) to 'encode_g/q_m_reg_reg[0]'
 INFO: [Synth 8-3886] merging instance 'encode_b/n0q_m_reg[0]' (FD) to 'encode_b/n1q_m_reg[0]'
@@ -310,9 +323,13 @@ INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[0]' (FD) to 'encode_
 INFO: [Synth 8-3886] merging instance 'encode_g/n0q_m_reg[0]' (FD) to 'encode_g/n1q_m_reg[0]'
 INFO: [Synth 8-3886] merging instance 'encode_r/n0q_m_reg[0]' (FD) to 'encode_r/n1q_m_reg[0]'
 INFO: [Synth 8-3886] merging instance 'encode_r/c0_reg_reg' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1d_reg[0]' (FD) to 'encode_g/n1d_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1d_reg[3]' (FD) to 'encode_r/n1d_reg[1]'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1d_reg[1]' (FD) to 'encode_g/n1d_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1d_reg[2]' (FD) to 'encode_r/c0_q_reg'
 INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[0]' (FD) to 'encode_r/c0_q_reg'
-INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[3]' (FD) to 'encode_r/din_q_reg[0]'
-INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[1]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[3]' (FD) to 'encode_r/c0_q_reg'
+INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[1]' (FD) to 'encode_r/din_q_reg[0]'
 INFO: [Synth 8-3886] merging instance 'encode_r/n1d_reg[2]' (FD) to 'encode_r/c0_q_reg'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\encode_r/c0_q_reg )
 INFO: [Synth 8-3886] merging instance 'encode_b/n1q_m_reg[0]' (FD) to 'encode_b/n0q_m_reg[2]'
@@ -340,25 +357,25 @@ INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[4]' (FD) to 'encode_
 INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[3]' (FD) to 'encode_g/n1q_m_reg[3]'
 INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[2]' (FD) to 'encode_g/n1q_m_reg[3]'
 INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[1]' (FD) to 'encode_g/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_g/q_m_reg_reg[8]' (FDR) to 'encode_r/q_m_reg_reg[8]'
 INFO: [Synth 8-3886] merging instance 'encode_g/n0q_m_reg[3]' (FD) to 'encode_r/n0q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_g/n1q_m_reg[3]' (FD) to 'encode_r/n1q_m_reg[3]'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1q_m_reg[3]' (FD) to 'encode_r/n0q_m_reg[2]'
 INFO: [Synth 8-3886] merging instance 'encode_g/n0q_m_reg[1]' (FD) to 'encode_g/n0q_m_reg[2]'
 INFO: [Synth 8-3886] merging instance 'encode_g/n1q_m_reg[1]' (FD) to 'encode_g/n0q_m_reg[2]'
 INFO: [Synth 8-3886] merging instance 'encode_g/n0q_m_reg[2]' (FD) to 'encode_g/n1q_m_reg[2]'
-INFO: [Synth 8-3886] merging instance 'encode_g/n1q_m_reg[2]' (FD) to 'encode_r/n0q_m_reg[2]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[7]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[6]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[5]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[4]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[3]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[2]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[1]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[0]' (FD) to 'encode_r/n1q_m_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/n0q_m_reg[1]' (FD) to 'encode_r/n0q_m_reg[2]'
-INFO: [Synth 8-3886] merging instance 'encode_r/n1q_m_reg[1]' (FD) to 'encode_r/n0q_m_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_g/n1q_m_reg[2]' (FD) to 'encode_r/q_m_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[7]' (FD) to 'encode_r/q_m_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[6]' (FD) to 'encode_r/q_m_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[5]' (FD) to 'encode_r/q_m_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[4]' (FD) to 'encode_r/n0q_m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[3]' (FD) to 'encode_r/n0q_m_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[2]' (FD) to 'encode_r/n0q_m_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[1]' (FD) to 'encode_r/n0q_m_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\encode_r/q_m_reg_reg[8] )
+INFO: [Synth 8-3886] merging instance 'encode_r/q_m_reg_reg[0]' (FD) to 'encode_r/n0q_m_reg[2]'
+INFO: [Synth 8-3886] merging instance 'encode_r/n1q_m_reg[3]' (FD) to 'encode_r/n0q_m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'encode_r/n0q_m_reg[1]' (FD) to 'encode_r/n1q_m_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\encode_r/n1q_m_reg[1] )
 INFO: [Synth 8-3886] merging instance 'encode_r/n0q_m_reg[2]' (FD) to 'encode_r/n1q_m_reg[2]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\encode_r/n1q_m_reg[2] )
 INFO: [Synth 8-3886] merging instance 'encode_b/dout_reg[7]' (FDC) to 'encode_b/dout_reg[5]'
 INFO: [Synth 8-3886] merging instance 'encode_b/dout_reg[6]' (FDC) to 'encode_b/dout_reg[4]'
 INFO: [Synth 8-3886] merging instance 'encode_b/dout_reg[5]' (FDC) to 'encode_b/dout_reg[3]'
@@ -373,13 +390,10 @@ INFO: [Synth 8-3886] merging instance 'encode_g/dout_reg[3]' (FDC) to 'encode_g/
 INFO: [Synth 8-3886] merging instance 'encode_g/dout_reg[1]' (FDC) to 'encode_g/dout_reg[0]'
 INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[7]' (FDC) to 'encode_r/dout_reg[5]'
 INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[6]' (FDC) to 'encode_r/dout_reg[4]'
-INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[5]' (FDC) to 'encode_r/dout_reg[3]'
-INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[4]' (FDC) to 'encode_r/dout_reg[2]'
 INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[3]' (FDC) to 'encode_r/dout_reg[1]'
-INFO: [Synth 8-3886] merging instance 'encode_r/dout_reg[1]' (FDC) to 'encode_r/dout_reg[0]'
-INFO: [Synth 8-3886] merging instance 'encode_g/dout_reg[8]' (FDC) to 'encode_r/dout_reg[8]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -391,13 +405,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -409,7 +423,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -433,13 +447,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -458,25 +472,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -496,14 +510,14 @@ Report Cell Usage:
 |1     |clk_wiz_0   |     1|
 |2     |CARRY4      |     6|
 |3     |LUT1        |     3|
-|4     |LUT2        |    17|
-|5     |LUT3        |     7|
-|6     |LUT4        |     5|
-|7     |LUT5        |    10|
-|8     |LUT6        |    37|
+|4     |LUT2        |    18|
+|5     |LUT3        |     6|
+|6     |LUT4        |    18|
+|7     |LUT5        |     6|
+|8     |LUT6        |    35|
 |9     |OSERDESE2   |     4|
 |10    |OSERDESE2_1 |     4|
-|11    |FDCE        |    48|
+|11    |FDCE        |    50|
 |12    |FDPE        |     1|
 |13    |FDRE        |    10|
 |14    |IBUF        |     1|
@@ -515,40 +529,40 @@ Report Instance Areas:
 +------+--------------+----------+------+
 |      |Instance      |Module    |Cells |
 +------+--------------+----------+------+
-|1     |top           |          |   161|
-|2     |  encode_b    |encode    |    18|
-|3     |  encode_g    |encode_0  |    13|
-|4     |  encode_r    |encode_1  |    46|
+|1     |top           |          |   170|
+|2     |  encode_b    |encode    |    29|
+|3     |  encode_g    |encode_0  |    28|
+|4     |  encode_r    |encode_1  |    27|
 |5     |  par2ser_b   |par2ser   |     3|
 |6     |  par2ser_clk |par2ser_2 |     3|
 |7     |  par2ser_g   |par2ser_3 |     3|
 |8     |  par2ser_r   |par2ser_4 |     4|
-|9     |  vga_inst    |vga       |    66|
+|9     |  vga_inst    |vga       |    68|
 +------+--------------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1060.297 ; gain = 307.340
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1060.297 ; gain = 414.484
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1084.215 ; gain = 308.355
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1084.215 ; gain = 438.398
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1060.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1084.215 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1073.629 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1084.215 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 4 instances were transformed.
   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-139 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+153 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1073.629 ; gain = 762.641
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1073.629 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1084.215 ; gain = 773.500
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1084.215 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/s/Desktop/rtl_work/fpga_lib/hdmi/vivado/HDMI.runs/synth_1/hdmi_ctrl.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file hdmi_ctrl_utilization_synth.rpt -pb hdmi_ctrl_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Nov 15 22:52:46 2020...
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 15 23:16:22 2020...

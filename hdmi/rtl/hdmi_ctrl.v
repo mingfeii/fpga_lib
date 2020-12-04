@@ -45,7 +45,7 @@ assign  HDMI_OUT_EN1 = 1'b1;
 vga	vga_inst(
 .vga_clk	(clk_1x	),
 .s_rst_n	(rst_n		),
-.pi_rgb_data	(24'hffffff	),
+.pi_rgb_data	(24'h11ffff	),
 
 .h_sync		(h_sync		),	
 .v_sync		(v_sync		),

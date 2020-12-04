@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Sun Nov 15 22:54:43 2020
+| Date             : Sun Nov 15 23:17:32 2020
 | Host             : DESKTOP-56190J3 running 64-bit major release  (build 9200)
 | Command          : report_power -file hdmi_ctrl_power_routed.rpt -pb hdmi_ctrl_power_summary_routed.pb -rpx hdmi_ctrl_power_routed.rpx
 | Design           : hdmi_ctrl
@@ -53,14 +53,14 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.006 |        6 |       --- |             --- |
-| Slice Logic    |    <0.001 |      166 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       67 |    203800 |            0.03 |
+| Slice Logic    |    <0.001 |      176 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       69 |    203800 |            0.03 |
 |   CARRY4       |    <0.001 |        6 |     50950 |            0.01 |
-|   Register     |    <0.001 |       59 |    407600 |            0.01 |
-|   Others       |     0.000 |       22 |       --- |             --- |
-| Signals        |    <0.001 |      129 |       --- |             --- |
+|   Register     |    <0.001 |       61 |    407600 |            0.01 |
+|   Others       |     0.000 |       23 |       --- |             --- |
+| Signals        |    <0.001 |      137 |       --- |             --- |
 | MMCM           |     0.131 |        1 |        10 |           10.00 |
-| I/O            |     0.133 |       11 |       400 |            2.75 |
+| I/O            |     0.134 |       11 |       400 |            2.75 |
 | Static Power   |     0.161 |          |           |                 |
 | Total          |     0.432 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -72,7 +72,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.078 |       0.009 |      0.070 |
+| Vccint    |       1.000 |     0.079 |       0.009 |      0.070 |
 | Vccaux    |       1.800 |     0.101 |       0.072 |      0.028 |
 | Vcco33    |       3.300 |     0.041 |       0.040 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -150,8 +150,8 @@ Table of Contents
 |     inst      |     0.132 |
 |   par2ser_b   |     0.035 |
 |   par2ser_clk |     0.034 |
-|   par2ser_g   |     0.034 |
-|   par2ser_r   |     0.035 |
+|   par2ser_g   |     0.035 |
+|   par2ser_r   |     0.034 |
 +---------------+-----------+
 
 

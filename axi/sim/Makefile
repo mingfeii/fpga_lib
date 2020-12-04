@@ -1,39 +1,15 @@
-ROOT_PATH ?= /home/s/sim_cam_lvds
-STEREO_LIB_1 ?= $(ROOT_PATH)/xsis/StereoBM/common/rtl 
-STEREO_LIB_2 ?= $(ROOT_PATH)/xsis/StereoBM/stereo/rtl 
-STEREO_LIB_3 ?= $(ROOT_PATH)/xsis/StereoBM/mem/rtl 
-STEREO_LIB_4 ?= $(ROOT_PATH)/xsis/StereoBM/rvh/rtl 
-STEREO_LIB_5 ?= $(ROOT_PATH)/xsis/StereoBM/alu/rtl 
 
-DVP_OPT := -full64 -debug_all -sverilog +libext+.v+.sv \
-			+define+FSDB -P $(FSDB_HOME)/novas.tab $(FSDB_HOME)/pli.a +vcs+finish+300ms
+EXAMPLE := -full64 -debug_all -sverilog +libext+.v+.sv -l compile.log \
+ +lint=TFIPC +lint=PCWM  -P $(FSDB_HOME)/novas.tab $(FSDB_HOME)/pli.a
 
-COMP_OPT := -full64 -debug_all -sverilog +libext+.v+.sv -l compile.log \
-	+incdir+$(STEREO_LIB_1) \
-	+incdir+$(STEREO_LIB_2) \
-	+incdir+$(STEREO_LIB_3) \
-	+incdir+$(STEREO_LIB_4) \
-	+incdir+$(STEREO_LIB_5) \
-	+define+FSDB +lint=TFIPC +lint=PCWM  -P $(FSDB_HOME)/novas.tab $(FSDB_HOME)/pli.a
-cam :
+example :
 	@echo -------------------------------------------------
-	vcs $(COMP_OPT) \
-	tb_lvds_cam_rx2camif.sv \
-	-f rtl.f 
-
-lvds :
-	vcs $(COMP_OPT) \
-	tb_lvds_cam_rx2camif.sv \
-	-f rtl.f 
+	vcs $(EXAMPLE) \
+	-f example.f 
 
 
-dvp :
-	@echo -------------------------------------------------
-	vcs $(DVP_OPT) \
-	   tb_dvp.sv \
-	   test_pattern.sv
 
-verdi_lvds :
+verdi_example :
 	@echo --------------------------------------------------
 	verdi -sv \
 	tb_lvds_cam_rx2camif.sv \
