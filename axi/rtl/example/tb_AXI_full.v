@@ -81,7 +81,20 @@ parameter  C_AXI_TARGET_SLAVE_BASE_ADDR	= 32'h40000000,
         # 100 sys_rst_n = 1;
         #40 m00_axi_init_axi_txn = 1;
         #40 m00_axi_init_axi_txn = 0;
+        #10000 $finish;
     end
+
+
+initial begin
+    $display("############ SIMULATION STARTS ################");
+    $timeformat(-9, 0, " ns", 12);
+    $display(" === FSDB ON ====");
+    $fsdbDumpfile("example.fsdb");
+    $fsdbDumpvars();
+    $fsdbDumpMDA();
+end
+
+
 
     always #10 sys_clk_i = ~sys_clk_i;
     

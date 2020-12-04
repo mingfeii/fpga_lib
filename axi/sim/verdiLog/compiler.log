@@ -1,0 +1,14 @@
+*design* DebussyLib (btIdent Verdi_N-2017.12-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    -f example.f
+        /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_S00_AXI.v
+        /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1.v
+        /home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v
+        /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_M00_AXI.v
+
+Highest level modules:
+tb_AXI_full
+
+Total	0 error(s),   0 warning(s)

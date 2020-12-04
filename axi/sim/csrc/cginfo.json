@@ -1,0 +1,99 @@
+{
+    "MlibObjs": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "tb_AXI_full",
+        "tb_AXI_full"
+    ],
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "tb_AXI_full": [
+            "tb_AXI_full",
+            "aaHg6",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 107138
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "stat": {
+        "quadSpeed": 70426.515075961564,
+        "nMops": 10566,
+        "Frontend(%)": 57.101602219005585,
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.080080999999999999,
+            "ru_stime_sec": 0.016858999999999999,
+            "ru_maxrss_kb": 87196,
+            "ru_nvcsw": 30,
+            "ru_minflt": 5927,
+            "ru_nivcsw": 11
+        },
+        "mopSpeed": 175625.81031215715,
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0062399999999999999,
+            "ru_stime_sec": 0.0045739999999999999,
+            "ru_maxrss_kb": 86472,
+            "ru_nvcsw": 5,
+            "ru_minflt": 989,
+            "ru_nivcsw": 3
+        },
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.14024300000000001,
+            "ru_stime_sec": 0.024747999999999999,
+            "ru_maxrss_kb": 98600,
+            "ru_nvcsw": 30,
+            "ru_minflt": 8077,
+            "ru_nivcsw": 11
+        },
+        "nQuads": 4237,
+        "totalObjSize": 295312,
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0062399999999999999,
+            "ru_stime_sec": 0.0045739999999999999,
+            "ru_maxrss_kb": 86472,
+            "ru_nvcsw": 5,
+            "ru_minflt": 989,
+            "ru_nivcsw": 3
+        },
+        "mop/quad": 2.4937455746990795,
+        "CodeGen(%)": 42.898397780994415,
+        "outputSizePerQuad": 69.0
+    },
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.15607.json"
+    ],
+    "Misc": {
+        "archive_dir": "archive.0",
+        "csrc_abs": "/home/s/rtl_work/fpga_lib/axi/sim/csrc",
+        "cwd": "/home/s/rtl_work/fpga_lib/axi/sim",
+        "daidir_abs": "/home/s/rtl_work/fpga_lib/axi/sim/simv.daidir",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    }
+}

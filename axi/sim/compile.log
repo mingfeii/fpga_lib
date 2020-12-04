@@ -1,0 +1,67 @@
+Command: vcs -full64 -debug_all -sverilog +libext+.v+.sv -l compile.log +lint=TFIPC \
++lint=PCWM -P /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/novas.tab /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/pli.a \
+-f example.f
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Fri Dec  4 23:16:05 2020
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_S00_AXI.v'
+Parsing design file '/home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1.v'
+Parsing design file '/home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v'
+Parsing design file '/home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_M00_AXI.v'
+Top Level Modules:
+       tb_AXI_full
+TimeScale is 1 ns / 1 ps
+
+Lint-[TFIPC-L] Too few instance port connections
+/home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v, 101
+"axi_full_v1 u_axi_full_v1( .m00_axi_init_axi_txn (m00_axi_init_axi_txn),  .m00_axi_txn_done (m00_axi_txn_done),  .m00_axi_error (m00_axi_error),  .m00_axi_aclk (sys_clk_i),  .m00_axi_aresetn (sys_rst_n),  .m00_axi_awid (axi_awid),  .m00_axi_awaddr (axi_awaddr),  .m00_axi_awlen (axi_awlen),  .m00_axi_awsize (axi_awsize),  .m00_axi_awburst (axi_awburst),  .m00_axi_awlock (axi_awlock),  .m00_axi_awcache (axi_awcache),  .m00_axi_awprot (axi_awprot),  .m00_axi_awqos (axi_awqos),  .m00_axi_awuser (axi_awuser),  .m00_axi_awvalid (axi_awvalid),  .m00_axi_awready (axi_awready),  .m00_axi_wdata (axi_wdata),  .m00_axi_wstrb (axi_wstrb),  .m00_axi_wlast (axi_wlast),  .m00_axi_wuser (axi_wuser),  .m00_axi_wvalid (axi_wvalid),  .m00_axi_wready (axi_wready),  .m00_axi ... "
+  The above instance has fewer port connections than the module definition,
+  input port 's00_axi_awregion' is not connected,
+  input port 's00_axi_arregion' is not connected.
+
+
+Lint-[PCWM-L] Port connection width mismatch
+/home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v, 101
+"axi_full_v1 u_axi_full_v1( .m00_axi_init_axi_txn (m00_axi_init_axi_txn),  .m00_axi_txn_done (m00_axi_txn_done),  .m00_axi_error (m00_axi_error),  .m00_axi_aclk (sys_clk_i),  .m00_axi_aresetn (sys_rst_n),  .m00_axi_awid (axi_awid),  .m00_axi_awaddr (axi_awaddr),  .m00_axi_awlen (axi_awlen),  .m00_axi_awsize (axi_awsize),  .m00_axi_awburst (axi_awburst),  .m00_axi_awlock (axi_awlock),  .m00_axi_awcache (axi_awcache),  .m00_axi_awprot (axi_awprot),  .m00_axi_awqos (axi_awqos),  .m00_axi_awuser (axi_awuser),  .m00_axi_awvalid (axi_awvalid),  .m00_axi_awready (axi_awready),  .m00_axi_wdata (axi_wdata),  .m00_axi_wstrb (axi_wstrb),  .m00_axi_wlast (axi_wlast),  .m00_axi_wuser (axi_wuser),  .m00_axi_wvalid (axi_wvalid),  .m00_axi_wready (axi_wready),  .m00_axi ... "
+  The following 32-bit expression is connected to 6-bit port "s00_axi_awaddr" 
+  of module "axi_full_v1", instance "u_axi_full_v1".
+  Expression: axi_awaddr
+  The expression is from module tb_AXI_full
+
+
+Lint-[PCWM-L] Port connection width mismatch
+/home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v, 101
+"axi_full_v1 u_axi_full_v1( .m00_axi_init_axi_txn (m00_axi_init_axi_txn),  .m00_axi_txn_done (m00_axi_txn_done),  .m00_axi_error (m00_axi_error),  .m00_axi_aclk (sys_clk_i),  .m00_axi_aresetn (sys_rst_n),  .m00_axi_awid (axi_awid),  .m00_axi_awaddr (axi_awaddr),  .m00_axi_awlen (axi_awlen),  .m00_axi_awsize (axi_awsize),  .m00_axi_awburst (axi_awburst),  .m00_axi_awlock (axi_awlock),  .m00_axi_awcache (axi_awcache),  .m00_axi_awprot (axi_awprot),  .m00_axi_awqos (axi_awqos),  .m00_axi_awuser (axi_awuser),  .m00_axi_awvalid (axi_awvalid),  .m00_axi_awready (axi_awready),  .m00_axi_wdata (axi_wdata),  .m00_axi_wstrb (axi_wstrb),  .m00_axi_wlast (axi_wlast),  .m00_axi_wuser (axi_wuser),  .m00_axi_wvalid (axi_wvalid),  .m00_axi_wready (axi_wready),  .m00_axi ... "
+  The following 32-bit expression is connected to 6-bit port "s00_axi_araddr" 
+  of module "axi_full_v1", instance "u_axi_full_v1".
+  Expression: axi_araddr
+  The expression is from module tb_AXI_full
+
+Starting vcs inline pass...
+2 unique modules to generate
+2 modules and 0 UDP read. 
+recompiling package std
+recompiling module tb_AXI_full
+All of 2 modules done
+make[1]: Entering directory '/home/s/rtl_work/fpga_lib/axi/sim/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o \
+_15607_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /usr/synopsys/L-2016.06/linux64/lib/libzerosoft_rt_stubs.so \
+/usr/synopsys/L-2016.06/linux64/lib/libvirsim.so /usr/synopsys/L-2016.06/linux64/lib/liberrorinf.so \
+/usr/synopsys/L-2016.06/linux64/lib/libsnpsmalloc.so /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/pli.a \
+/usr/synopsys/L-2016.06/linux64/lib/libvcsnew.so /usr/synopsys/L-2016.06/linux64/lib/libsimprofile.so \
+/usr/synopsys/L-2016.06/linux64/lib/libuclinative.so   -Wl,-whole-archive /usr/synopsys/L-2016.06/linux64/lib/libvcsucli.so \
+-Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/synopsys/L-2016.06/linux64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home/s/rtl_work/fpga_lib/axi/sim/csrc'
+CPU time: .217 seconds to compile + .223 seconds to elab + .228 seconds to link

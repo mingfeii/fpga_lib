@@ -1,0 +1,77 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_N-2017.12-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+viewport = 0 25 1918 909 0 0 253 898
+activeNode = "tb_AXI_full.u_axi_full_v1.axi_full_v1_S00_AXI_inst.BRAM_GEN[0]"
+activeScope = "tb_AXI_full.u_axi_full_v1.axi_full_v1_S00_AXI_inst.BRAM_GEN[0]"
+activeFile = "/home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_S00_AXI.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 591
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_AXI_full.u_axi_full_v1.axi_full_v1_S00_AXI_inst.BRAM_GEN[0]"
+Scope2 = "tb_AXI_full.u_axi_full_v1.axi_full_v1_S00_AXI_inst"
+Scope3 = "tb_AXI_full.u_axi_full_v1"
+Scope4 = "tb_AXI_full"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-sv" "-f" "example.f" 
+invokeDir = /home/s/rtl_work/fpga_lib/axi/sim
+[hb.sourceTab.1]
+scope = tb_AXI_full.u_axi_full_v1.axi_full_v1_S00_AXI_inst.BRAM_GEN[0]
+File = /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_S00_AXI.v
+Line = 592
+[wave.0]
+viewPort = 0 28 1918 358 100 65
+primaryWindow = TRUE
+Empty = /home/s/rtl_work/fpga_lib/axi/sim/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

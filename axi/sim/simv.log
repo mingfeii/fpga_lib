@@ -1,0 +1,21 @@
+Command: ./simv -l simv.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  Dec  4 23:25 2020
+############ SIMULATION STARTS ################
+ === FSDB ON ====
+*Verdi* Loading libsscore_vcs201606.so
+FSDB Dumper for VCS, Release Verdi_N-2017.12-SP2, Linux x86_64/64bit, 05/27/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'example.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+$finish called from file "/home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v", line 84.
+$finish at simulation time     10180 ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10180000 ps
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Fri Dec  4 23:25:09 2020

@@ -1,0 +1,2 @@
+Command Line: /usr/synopsys/Verdi_N-2017.12-SP2/platform/LINUXAMD64/bin/Novas -sv -f example.f -ssf example.fsdb
+uname(Linux s-pc 5.4.0-53-generic #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 x86_64)

@@ -1,0 +1,55 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "tb_AXI_full": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "checksum": 0,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "bytes": 7568
+        },
+        "aaHg6_d": {
+            "archive": "archive.0/_15607_archive_1.a",
+            "checksum": 0,
+            "mod": "tb_AXI_full",
+            "out": "aaHg6_d.o",
+            "mode": 4,
+            "bytes": 139040
+        },
+        "reYIK_d": {
+            "archive": "archive.0/_15607_archive_1.a",
+            "checksum": 0,
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "bytes": 41566
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 180606,
+            "archive": "archive.0/_15607_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    41566
+                ],
+                [
+                    "aaHg6_d.o",
+                    139040
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {}
+}

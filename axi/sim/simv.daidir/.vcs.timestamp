@@ -1,0 +1,120 @@
+0 
+36
++itf+/usr/synopsys/L-2016.06/linux64/lib/vcsdp.tab
++libext+.v+.sv
++lint=PCWM
++lint=TFIPC
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/L-2016.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/synopsys/L-2016.06/linux64/lib/libvirsim.so /usr/synopsys/L-2016.06/linux64/lib/liberrorinf.so /usr/synopsys/L-2016.06/linux64/lib/libsnpsmalloc.so /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/L-2016.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/L-2016.06/include
+-P
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-f example.f
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+/usr/synopsys/L-2016.06/linux64/bin/vcs1
+/usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/novas.tab
+compile.log
+65
+sysc_uni_pwd=/home/s/rtl_work/fpga_lib/axi/sim
+XMODIFIERS=@im=fcitx
+XDG_VTNR=7
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_ID=c1
+XDG_SESSION_DESKTOP=xubuntu
+XDG_SESSION_CLASS=user
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=xfce-
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/s
+XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+XDG_CURRENT_DESKTOP=XFCE
+XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg
+XAUTHORITY=/home/s/.Xauthority
+VTE_VERSION=6003
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/synopsys/Verdi_N-2017.12-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/usr/synopsys/L-2016.06
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UVM_HOME=/usr/synopsys/uvm-1.1d
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/L-2016.06/linux64
+SYNOPSYS=/usr/synopsys
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=1241
+SESSION_MANAGER=local/s-pc:@/tmp/.ICE-unix/1119,unix/s-pc:/tmp/.ICE-unix/1119
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/usr/synopsys/2016.12
+QT_QPA_PLATFORMTHEME=gtk2
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=fcitx
+OVA_UUM=0
+NOVAS_HOME=/usr/synopsys/Verdi_N-2017.12-SP2
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/0
+MAKE_TERMERR=/dev/pts/0
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_ALL=C
+GTK_OVERLAY_SCROLLING=0
+GTK_IM_MODULE=fcitx
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GDM_LANG=zh_CN
+GDMSESSION=xubuntu
+FSDB_HOME=/usr/synopsys/Verdi_N-2017.12-SP2
+DVE_HOME=/usr/synopsys/L-2016.06/gui/dve
+DESKTOP_SESSION=xubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=fcitx
+CLUTTER_BACKEND=x11
+0
+7
+1582425076 /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_M00_AXI.v
+1607094935 /home/s/rtl_work/fpga_lib/axi/rtl/example/tb_AXI_full.v
+1570693302 /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1.v
+1570693302 /home/s/rtl_work/fpga_lib/axi/rtl/example/axi_full_v1_S00_AXI.v
+1607093278 example.f
+1527421818 /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/novas.tab
+1464145466 /usr/synopsys/L-2016.06/linux64/lib/vcsdp.tab
+5
+0 
+1464147802 /usr/synopsys/L-2016.06/linux64/lib/libvirsim.so
+1464147272 /usr/synopsys/L-2016.06/linux64/lib/liberrorinf.so
+1464147248 /usr/synopsys/L-2016.06/linux64/lib/libsnpsmalloc.so
+1527420335 /usr/synopsys/Verdi_N-2017.12-SP2/share/PLI/VCS/LINUX64/pli.a
+1607094982 simv.daidir
